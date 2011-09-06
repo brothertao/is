@@ -1,0 +1,3 @@
+Plugin List:
+1:winmanager
+2:xptemplate
