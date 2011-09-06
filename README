@@ -2,5 +2,6 @@
 git clone https://github.com/brothertao/is.git
 cp is/* c:/vim
 使用
+plugin:
 配置
 FAQ
