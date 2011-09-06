@@ -1,5 +1,6 @@
 安装
 git clone https://github.com/brothertao/is.git
+cp is/* c:/vim
 使用
 配置
 FAQ
