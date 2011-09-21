@@ -271,7 +271,7 @@ if MySys() == "linux"
 else
   source $VIMRUNTIME/mswin.vim
   behave mswin
-  set guifont=Yahei_Mono:h16:cGB2312
+  set guifont=YaHei\ Consolas\ Hybrid:h18
 endif
 
 
