@@ -232,6 +232,7 @@ set fen
 set fdl=1
 
 set smarttab
+set tabstop=4
 set expandtab
 set shiftwidth=4
 
@@ -271,7 +272,7 @@ if MySys() == "linux"
 else
   source $VIMRUNTIME/mswin.vim
   behave mswin
-  set guifont=YaHei\ Consolas\ Hybrid:h18
+  set guifont=Monaco:h10
 endif
 
 
@@ -547,4 +548,4 @@ set noswapfile
    "Fast Ex command
    nnoremap ; :
 let g:vimrc_loaded = 1
-
+map <C-b> :% ! phpCB  --space-after-if  --space-after-switch --space-after-while --space-before-start-angle-bracket --space-after-end-angle-bracket --one-true-brace-function-declaration --glue-amperscore --change-shell-comment-to-double-slashes-comment --force-large-php-code-tag --force-true-false-null-contant-lowercase --align-equal-statements --comment-rendering-style PEAR --equal-align-position 50 --padding-char-count 4 "%" <CR>
