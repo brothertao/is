@@ -1,0 +1,1 @@
+{"ts":1357632334481,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"安装\ngit clone https://github.com/brothertao/is.git\ncp is/* c:/vim\n使用\nplugin:\n配置\nFAQ\n"]],"start1":0,"start2":0,"length1":0,"length2":83}]],"length":83}
